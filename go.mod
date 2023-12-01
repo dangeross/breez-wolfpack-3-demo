@@ -3,6 +3,7 @@ module github.com/dangeross/breez-wolfpack-3-demo
 go 1.19
 
 require (
+	github.com/breez/breez-sdk-go v0.2.10
 	github.com/desertbit/grumble v1.1.3
 	github.com/fatih/color v1.16.0
 	github.com/sirupsen/logrus v1.9.3
