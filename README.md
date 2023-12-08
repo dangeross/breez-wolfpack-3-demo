@@ -1,6 +1,4 @@
-# breez-wolfpack-3-demo
-A demo Go Breez SDK CLI for Wolfpack 3
-
+# Breez SDK Demo for Wolfpack 3
 ```
 % go run . -d data/test
 __________                                                                 
@@ -18,3 +16,17 @@ __________
 
 sdk> 
 ```
+
+## What's the plan
+
+Add the Breez SDK to this barebones CLI to connect, receive and send payments. The `final` branch has the completed demo code.
+
+*Add the SDK* - Add some code to access the SDK and listen to SDK events 
+
+*Connect* - Register a node using a Greenlight Invite Code
+
+*Query node state* - Get the node pubkey, on-chain / lightning liquidity
+
+*Receive a payment* - Create an invoice, then receive a payment while opening a channel
+
+*Send a payment* - Pay an invoice using our node
