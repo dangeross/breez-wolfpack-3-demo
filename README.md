@@ -17,7 +17,7 @@ __________
 sdk> 
 ```
 
-##What's the plan##
+## What's the plan
 
 Add the Breez SDK to this barebones CLI to connect, receive and send payments. The `final` branch has the completed demo code.
 
