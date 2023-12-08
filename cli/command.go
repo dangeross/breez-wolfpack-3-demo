@@ -72,7 +72,7 @@ func (c *Cli) load() error {
 		Help: "send a lightning payment",
 		Args: func(a *grumble.Args) {
 			a.String("bolt11", "bolt11 lightning invoice")
-			a.Uint64("amount_msat", "amount to send in millisatoshis", grumble.Default(0))
+			a.Uint64("amount_msat", "amount to send in millisatoshis", grumble.Default(uint64(0)))
 		},
 		Run: func(ctx *grumble.Context) (err error) {
 			bolt11 := ctx.Args.String("bolt11")
